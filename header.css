@@ -1,0 +1,180 @@
+.header-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 70px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-width: 0;
+    border-bottom-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    padding-top: 4px;
+    background-color: white;
+    z-index: 100;
+}
+
+.youtube-logo {
+    margin-left: 20px;
+}
+
+.upload-button-style {
+    background-color: white;
+    border: none; 
+    margin-bottom: 8px;
+}
+
+.upload-img {
+    width: 45px;
+}
+
+.upload-div {
+    margin-top: 8px;
+}
+
+.search-div {
+    flex: 1;
+    max-width: 400px;
+    border-width: 1px;
+    height: 40px;
+    box-shadow: inset 1px 1px 1px rgba(0,0,0,0.15);
+    position: relative;
+}
+
+.search-button .search-button-hover{
+    background-color: #F0F2F5;
+    position: absolute;
+    opacity: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 15px;
+    margin-left: -10px;
+    cursor: pointer;
+    pointer-events: none;
+}
+.search-button:hover .search-button-hover {
+    opacity: 1;
+}
+.search-div::placeholder {
+    font-family: Arial;
+}
+.search-button:hover {
+    background-color: #F0F2F5;
+}
+.end-div {
+    display: flex;
+}
+
+.voice-search {
+    margin-left: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 30px;
+    border-color: gray;
+    border-width: 0.25px;
+    border-style: solid;
+    background-color: white;
+    cursor: pointer;
+}
+
+.voice-search .voice-search-hover{
+    background-color: #F0F2F5;
+    position: absolute;
+    opacity: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 15px;
+    margin-left: -50px;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.voice-search:hover .voice-search-hover{
+    opacity: 1;
+}
+
+.upload-div .upload-div-hover{
+    background-color: #F0F2F5;
+    position: absolute;
+    opacity: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 0px;
+    margin-left: -15px;
+    pointer-events: none;
+}
+
+.upload-div:hover .upload-div-hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.search-button {
+    background-color: white;
+    border-width: 0.25px;
+    border-color: grey;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.notification-div {
+    position: relative;
+    margin-right: 50px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+
+
+.notification-count {
+    position: absolute;
+    top: 1px;
+    right: -2px;
+    background-color: red;
+    color: white;
+    font-family: roboto,Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 40px;
+    width: 15px;
+}
+
+.notification-button {
+    background-color: white;
+    border: none;
+    margin-top: 4px;
+    position: relative;
+}
+.notification-button .notification-hover {
+    position: absolute;
+    opacity: 0;
+}
+.notification-button:hover .notification-hover {
+    opacity: 1;
+    background-color: #F0F2F5;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: -15px;
+}
+
+.profile-button {
+    background-color: white;
+    border: none;
+    padding-bottom: 0px;
+}
